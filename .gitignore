@@ -1,0 +1,80 @@
+# See https://help.github.com/en/articles/creating-a-personal-access-token-for-command-line-use
+# and https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+# Logs and temp files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build files
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies
+/node_modules
+
+# Testing
+/coverage
+
+# IDEs
+.idea
+.vscode
+*.swp
+*.swo
+
+# Build artifacts
+/build
+/dist
+/dist-prod
+/dist-test
+
+# Configuration
+.env
+.env.test
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# OpenAI API
+/.openai
+/*.openai
+
+# Git
+/.git
+/*.git
+
+# Miscellaneous
+*.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+build/*
+dist/*
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+/*.DS_Store
+/*.sublime-project
+/*.sublime-workspace
+/*.swp
+/*.swo
+build/*
+dist/*
+*.log
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+/.openai
+/*.openai
+/.git
+/*.git
